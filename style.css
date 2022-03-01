@@ -1,0 +1,223 @@
+body{
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+#circulo{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    border-radius: 100%;
+    text-align: center; /*para poder centrar el div hijo*/
+    box-shadow: 0 0 2px #fff;
+    
+}
+
+
+#interior1{
+    height: 490px;
+    width: 490px;
+    margin: 1%;
+    position: relative;
+    background: linear-gradient(to right, #ff0080 10%, black 90%);
+    border-radius: 50% 50%;
+    text-align: center; /*para poder centrar el div hijo*/
+}
+
+
+#interior1::before {
+    position:absolute;
+    content:"";
+    top:1%;
+    left:1%;
+    background-Color:black;
+    height:98%;
+    width:98%;
+    border-radius:50% 50%;
+}
+
+
+#interior2{
+    height: 470px;
+    width: 470px;
+    margin: -97% 3%;
+    position: relative;
+    background: linear-gradient(to right, black 60%, #dfff00 40%);
+    border-radius: 50% 50%;
+    text-align: center; /*para poder centrar el div hijo*/
+}   
+
+#interior2::before {
+    position:absolute;
+    content:"";
+    top:1%;
+    left:1%;
+    background-Color:black;
+    height:98%;
+    width:98%;
+    border-radius:50% 50%;
+    
+}
+
+
+#interior3{
+    height: 450px;
+    width: 450px;
+    margin: 5% 5%;
+    position: relative;
+    background: linear-gradient(to right, #00a8ff 40%, black 60%);
+    border-radius: 50% 50%;
+    text-align: center; /*para poder centrar el div hijo*/
+}   
+
+#interior3::before {
+    position:absolute;
+    content:"";
+    top:1%;
+    left:1%;
+    background-Color:black;
+    height:98%;
+    width:98%;
+    border-radius:50% 50%;
+}
+
+
+#interior4{
+    height: 430px;
+    width: 430px;
+    margin: -93% 7%;
+    position: relative;
+    background: linear-gradient(to right, black 60%, #ff5700 40%);
+    border-radius: 50% 50%;
+    text-align: center; /*para poder centrar el div hijo*/
+}   
+
+#interior4::before {
+    position:absolute;
+    content:"";
+    top:1%;
+    left:1%;
+    background-Color:black;
+    height:98%;
+    width:98%;
+    border-radius:50% 50%;
+    
+}
+
+
+
+#interior5{
+    height: 400px;
+    width: 400px;
+    margin: 10% 10%;
+    position: relative;
+    background: linear-gradient(to right, #ff0000 40%, black 60%);
+    border-radius: 50% 50%;
+    text-align: center; /*para poder centrar el div hijo*/
+}   
+
+#interior5::before {
+    position:absolute;
+    content:"";
+    top:1%;
+    left:1%;
+    background-Color:black;
+    height:98%;
+    width:98%;
+    border-radius:50% 50%;
+}
+
+#interior6{
+    height: 370px;
+    width: 370px;
+    margin: -87% 13%;
+    position: relative;
+    background: linear-gradient(to right, black 60%, #00ff9e 40%);
+    border-radius: 50% 50%;
+    text-align: center; /*para poder centrar el div hijo*/
+}   
+
+#interior6::before {
+    position:absolute;
+    content:"";
+    top:1%;
+    left:1%;
+    background-Color:black;
+    height:98%;
+    width:98%;
+    border-radius:50% 50%;
+    
+}
+
+#interior7{
+    height: 340px;
+    width: 340px;
+    margin: 16% 16%;
+    position: relative;
+    background: linear-gradient(to right, #00e9ff 40%, black 60%);
+    border-radius: 50% 50%;
+    text-align: center; /*para poder centrar el div hijo*/
+}   
+
+#interior7::before {
+    position:absolute;
+    content:"";
+    top:1%;
+    left:1%;
+    background-Color:black;
+    height:98%;
+    width:98%;
+    border-radius:50% 50%;
+}
+
+#interior8{
+    height: 310px;
+    width: 310px;
+    margin: -81% 19%;
+    position: relative;
+    background: linear-gradient(to right, black 60%, #232323 40%);
+    border-radius: 50% 50%;
+    text-align: center; /*para poder centrar el div hijo*/
+}   
+
+#interior8::before {
+    position:absolute;
+    content:"";
+    top:1%;
+    left:1%;
+    background-Color:black;
+    height:98%;
+    width:98%;
+    border-radius:50% 50%;
+}
+
+#interior9{
+    height: 290px;
+    width: 290px;
+    margin: 21% 21%;
+    position: relative;
+    background: linear-gradient(to right, white 40%, black 60%);
+    border-radius: 50% 50%;
+    text-align: center; /*para poder centrar el div hijo*/
+}   
+
+#interior9::before {
+    position:absolute;
+    content:"";
+    top:1%;
+    left:1%;
+    background-Color:black;
+    height:98%;
+    width:98%;
+    border-radius:50% 50%;
+}
+
+    
